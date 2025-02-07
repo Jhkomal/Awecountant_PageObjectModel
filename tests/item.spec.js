@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import LoginPage from './pages/LoginPage';
+import LoginPage from '../pages/LoginPage';
 import ItemPage from '../pages/ItemPage';
 
 test('User should be able to add an item', async ({ page }) => {

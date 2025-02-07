@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import LoginPage from './pages/LoginPage';
-import UnitPage from './pages/UnitPage';
+import LoginPage from '../pages/LoginPage';
+import UnitPage from '../pages/UnitPage';
 
 test('User should be able to add a unit', async ({ page }) => {
     const loginPage = new LoginPage(page);
