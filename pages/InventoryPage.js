@@ -1,6 +1,8 @@
-class InventoryPage {
+import BasePage from './BasePage';
+class InventoryPage extends BasePage {
     constructor(page) {
-        this.page = page;
+        super(page);
+    
 
         // Locators
         this.expandItemsButton = page.getByRole('button', { name: 'Expand "Items"' });
